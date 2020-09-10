@@ -1,13 +1,7 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
+import ReactDOM from "react-dom";
 
-ReactDOM.render(
-    <HelloWorld />,
-    document.querySelector('main')
-);
+//imported components
+import App from "./app";
 
-function HelloWorld() {
-    return (
-        <div>Hello, World!</div>
-    );
-}
+ReactDOM.render(<App />, document.querySelector("main"));
